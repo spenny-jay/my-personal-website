@@ -1,0 +1,30 @@
+.skills {
+    background-color: $secondary-color;
+    padding-top: 5rem;
+}
+
+.skills__header {
+    padding-bottom: 1rem;
+}
+
+.skills__container {
+    padding-bottom: 2rem;
+}
+
+.skills__subheader {
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.skills__list {
+    font-size: $default-font-size;
+}
+
+.skills__key {
+    font-weight: bold;
+}
+
+.skills__cert {
+    font-size: $default-font-size;
+}

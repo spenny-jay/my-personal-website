@@ -1,0 +1,26 @@
+body {
+    font-family: Inter, Arial;
+    font-size: $default-font-size
+}
+
+p {
+    margin: 0;
+}
+
+.header {
+    font-size: $header-font-size;
+    margin-bottom: 1rem;
+    color: $primary-color;
+}
+
+.circular_img {
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.section {
+    background-color: $secondary-color;
+    padding-top: $section-gap;
+    color: $tertiary-color;
+}

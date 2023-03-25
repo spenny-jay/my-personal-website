@@ -1,0 +1,36 @@
+.about {
+    background-color: $secondary-color;
+    color: $tertiary-color;
+}
+
+.summary {
+    font-size: $default-font-size;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.about__logo {
+    height: 8rem;
+}
+
+.about__degree {
+    font-size: $default-font-size;
+}
+
+.about__school {
+    font-size: 1.8rem;
+}
+
+.degree__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.degree__info {
+    padding-left: $default-font-size;
+}
+
+.degree__subtext {
+    font-size: 1.5rem;
+    font-weight: lighter;
+}

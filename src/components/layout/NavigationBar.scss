@@ -1,0 +1,50 @@
+.navbar-container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 7rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem;
+    background-color: $secondary-color-dark;
+    color: $tertiary-color;
+    box-shadow: 0 .4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    transition: all .2s;
+    color: $tertiary-color;
+}
+
+.link:hover {
+    color: $primary-color;
+}
+
+.link:active {
+    text-decoration: underline;
+}
+
+.contact-btn, .contact-btn:hover {
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: .5rem 1rem;
+    
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+
+    @include btn-bounce
+}

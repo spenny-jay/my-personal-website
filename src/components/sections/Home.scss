@@ -1,0 +1,44 @@
+.home {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 8rem 0;
+    background-image: linear-gradient(to bottom, $secondary-color-dark, $secondary-color);
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    color: $tertiary-color;
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-wrapper {
+        justify-content: center;
+        text-align: center;
+    }
+  }
+
+.description__name {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $primary-color;
+
+}
+
+.description__title {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.pfp {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid white;
+}
+

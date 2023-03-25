@@ -1,0 +1,43 @@
+.subheader {
+    font-size: 1.8rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.phone {
+    font-weight: bold;
+}
+
+.label {
+    font-size: $default-font-size;
+}
+
+.text__input {
+    width: 100%;
+    padding: 1rem;
+    &::placeholder {
+        font-size: $small-font-size;
+    }
+}
+
+
+.textbox {
+    width: 100%;
+
+    &::placeholder {
+        font-size: $small-font-size;
+        padding-left: .8rem;
+    }
+}
+
+.contact__btn {
+    background-color: $primary-color;
+    font-size: $default-font-size;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 1rem;
+    
+
+    @include btn-bounce;
+}
