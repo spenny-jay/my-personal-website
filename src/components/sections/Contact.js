@@ -12,11 +12,7 @@ const Contact = () => {
         <section id="contact" className="section">
             <Container>
                 <h4 className="header">Contact</h4>
-                <h6 className="subheader">
-                    Let's talk! Feel free to send me an email below or call at 
-                    <span className="phone"> 540-842-3002</span>
-                </h6>
-                    <form action={`mailto:spenceraj@vt.edu, ${email}`} encType="text/plain">
+                    <form className="contact-form" action={`mailto:spenceraj@vt.edu, ${email}`} encType="text/plain">
                         <Row className="justify-content-center align-items-center mb-5">
                             <Col md={3}>
                                 <label className="label" htmlFor="subject">Subject: </label>
@@ -33,7 +29,7 @@ const Contact = () => {
                                 <input 
                                     className="text__input"
                                     type="text" 
-                                    placeholder="Your Email" 
+                                    placeholder="Your Email Address" 
                                     required 
                                     value={email}
                                     onChange={emailHandler}

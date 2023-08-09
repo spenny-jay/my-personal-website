@@ -26,7 +26,7 @@ const Experience = ({ exp }) => {
             </Row>
             <Col>
                 <div className="experiences__company-wrapper">
-                    <img className="experiences__company-logo circular_img" src={ exp.imgPath } alt="Publicis Sapient Logo" />
+                    <img className="experiences__company-logo circular_img" src={ exp.imgPath } alt="Company Logo" />
                     <p className="experiences__company">{ exp.company }</p>
                 </div>
             </Col>

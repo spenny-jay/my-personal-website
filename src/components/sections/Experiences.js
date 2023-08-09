@@ -1,11 +1,24 @@
 import Container from 'react-bootstrap/esm/Container';
 import Experience from '../Experience';
 
-const psPath = "https://media.licdn.com/dms/image/C560BAQFJ1mxjVEoZGw/company-logo_200_200/0/1658952736311?e=1687996800&v=beta&t=LWSrOMFl3VfsQvcmaznwT1V0PgnDnVD1cCO5dFn2xkQ";
-const ccPath = "https://media.licdn.com/dms/image/C4D0BAQHUglrO3Peq0Q/company-logo_200_200/0/1519889672919?e=1687996800&v=beta&t=tmvbbxXFFmNRMUM6jC6qXmZDrRgfyf7On-0aKP--0VE";
-const elPath = "https://media.licdn.com/dms/image/C560BAQGetgUvk-GG9Q/company-logo_200_200/0/1656674346347?e=1687996800&v=beta&t=jE1F7HjASnQFnDmOpaFEznCxLZDP7UcEmepmpjc57O0";
+import psPath from "../../assets/ps.jpeg";
+import ccPath from "../../assets/cc.jpeg";
+import elPath from  "../../assets/ellucian.jpeg";
 
 const experience_list = [
+    {
+        id: 0,
+        imgPath: psPath,
+        company: "Publicis Sapient",
+        title: "Junior Software Engineer",
+        startDate: "Feb 2023",
+        endDate: "Present",
+        accomplishments: [
+            "Contributing towards a national debt management web application for the Federal Reserve, aimed to generate several interest rates for securities and provide economic analysis",
+            "Led the development of a daily feed to retrieve the latest financial data via API calls from sources including Bloomberg and Haver Analytics to chart economic insights on the platform",
+            "Enhanced a robust quality assurance tool to verify critical data stored across development environments were consistent prior to a new release",
+        ]
+    },
     {
         id: 1,
         imgPath: psPath,

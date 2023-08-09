@@ -2,7 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const vtPath = "https://media.licdn.com/dms/image/C510BAQGEnHJ3Ojm1Jg/company-logo_200_200/0/1519912733262?e=1687996800&v=beta&t=pHOw0-HVB5aMQDCPVy_HApDMH3VYl9ltFQ3a9FXkevw";
+import vtPath from "../../assets/vt.jpeg";
 const About = () => {
     return ( 
         <section id="about" className="about">
@@ -11,7 +11,7 @@ const About = () => {
                     <Col lg={7}>
                         <h4 className="header">Summary</h4>
                         <p className="summary">
-                            My passion lies in web development as I view it as a limitless, creative outlet!
+                            My passion lies in web development as I view it as a limitless, creative outlet.
                             I have experience working in the front-end using tools like React.js, CSS, and HTML
                             and on the back-end utilizing JavaScript, AWS, and Java.
                         </p>
@@ -27,7 +27,7 @@ const About = () => {
                                 <p className="about__school">
                                      Virginia Tech
                                 </p>
-                                <p className="degree__subtext">Dec 2022 | GPA: 3.72</p>
+                                <p className="degree__subtext">Dec 2022 | GPA: 3.73</p>
                             </div> 
                         </div> 
                     </Col>
